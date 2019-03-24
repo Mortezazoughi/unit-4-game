@@ -49,8 +49,11 @@
     background-image: url("../images/wallpaper.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    
    
  }
+
+ 
 
  .header { 
     font-family: 'Courgette', cursive;    

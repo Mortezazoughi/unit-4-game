@@ -3,7 +3,7 @@ $(document).ready(function() {
 // Geting computer pick
 
     var randomPick = Math.floor(Math.random() * 102) + 19; 
-    console.log("crystal 1: " + crystalOne);		 
+    console.log("crystal 1: " + randomPick);		 
         $(".randomNumber").html(randomPick); 
         
 // Getting the value of first crystal
@@ -35,7 +35,9 @@ $(document).ready(function() {
 
 	var losses = 0; 
 		
-	var score = 0; 
+    var score = 0; 
+    
+    
        
         
 // reset
